@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline'; script-src 'self'; img-src 'self' data:;">
     <title>Yos Valiandy | Performance Marketing Specialist</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -13,7 +14,6 @@
         <nav>
             <div class="logo">YV</div>
             <ul class="nav-links">
-                <li class="close-btn"><i class="fas fa-times"></i></li>
                 <li><a href="#hero" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About Me</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
@@ -22,10 +22,12 @@
                 <li><a href="#organization" class="nav-link">Organization</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#certificates" class="nav-link">Certificates</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="contact-button-li"><a href="#contact" class="nav-link contact-button">Contact</a></li>
             </ul>
             <div class="hamburger">
-                <i class="fas fa-bars"></i>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
     </header>
@@ -36,7 +38,7 @@
                 <h1>Yos Valiandy</h1>
                 <p class="subtitle"><span id="typing-effect"></span></p>
                 <p class="description">
-                    A results-driven Performance Marketing Specialist dedicated to driving measurable growth. My expertise includes data analysis, strategic campaign optimization, and maximizing ROI across major ad platforms.
+                    A passionate and results-oriented professional in performance marketing, expert in data analysis, campaign optimization, and strategic planning to drive significant business growth.
                 </p>
                 <a href="#portfolio" class="cta-button">View My Portfolio</a>
             </div>
@@ -107,8 +109,9 @@
                     <ul>
                         <li>Google Analytics 4 (GA4)</li>
                         <li>Google Tag Manager (GTM)</li>
-                        <li>Looker Studio</li>
                         <li>Google Search Console</li>
+                        <li>Google Looker Studio</li>
+                        <li>Canvas</li>
                     </ul>
                 </div>
                 <div class="skill-category">
@@ -138,7 +141,7 @@
                 <div class="portfolio-item">
                     <h3>30+</h3>
                     <p>Google Ads Clients</p>
-                    <span>(Search, Local Visit Store, Demand Gen, YouTube, Performance Max)</span>
+                    <span>(Search, Demand Gen, YouTube, PMax)</span>
                 </div>
                 <div class="portfolio-item">
                     <h3>5+</h3>
@@ -219,9 +222,9 @@
             <h2>Contact Me</h2>
             <p>Interested in collaborating or have any questions? Feel free to contact me.</p>
             <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:valiandywk@gmail.com">valiandywk@gmail.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:valiandywk@gmail.com">Email Me</a></p>
                 <p><strong>WhatsApp:</strong> <a href="https://wa.me/6287887046946">Click Here</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yos-valiandy/" target="_blank">LinkedIn Profile</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
             </div>
         </section>
     </main>
