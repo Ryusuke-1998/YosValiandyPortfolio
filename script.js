@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 6. Efek Mengetik ---
     const typingElement = document.getElementById('typing-effect');
     if(typingElement){
-        const roles = ["Performance Marketing", "Data Analyst", "Strategic Planner"];
+        const roles = ["Performance Marketing", "Data Analyst", "Strategic Planner", "Digital Ads Specialist"];
         let roleIndex = 0;
         let charIndex = 0;
         function type() {
